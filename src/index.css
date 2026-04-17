@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Rajdhani:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-orbitron: "Orbitron", sans-serif;
+  --font-rajdhani: "Rajdhani", sans-serif;
+  
+  --color-neon-blue: #00f0ff;
+  --color-neon-purple: #b026ff;
+  --color-neon-pink: #ff2d95;
+}
+
+@layer base {
+  body {
+    @apply font-rajdhani bg-[#0a0a0f] text-gray-100;
+  }
+}
+
+@layer utilities {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-linear-to-r from-neon-blue via-neon-purple to-neon-pink;
+  }
+  
+  .glow-box {
+    @apply shadow-[0_0_30px_rgba(0,240,255,0.2),inset_0_0_30px_rgba(0,240,255,0.05)] border border-cyan-500/30;
+  }
+  
+  .glow-box-purple {
+    @apply shadow-[0_0_30px_rgba(176,38,255,0.2),inset_0_0_30px_rgba(176,38,255,0.05)] border border-purple-500/30;
+  }
+  
+  .pulse-glow {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 20px rgba(0, 240, 255, 0.5); }
+  50% { box-shadow: 0 0 40px rgba(0, 240, 255, 0.8), 0 0 60px rgba(176, 38, 255, 0.4); }
+}
+
