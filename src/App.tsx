@@ -553,7 +553,7 @@ export default function App() {
               © 2026 Nextloop. All rights reserved. Not affiliated with KRAFTON or BGMI.
             </div>
             <div className="flex gap-4">
-              <a href="https://discord.gg/skvip." target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-cyan-500/20 flex items-center justify-center transition group">
+              <a href="https://discord.gg/skvip" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-cyan-500/20 flex items-center justify-center transition group">
                 <MessageSquare className="w-5 h-5 text-gray-400 group-hover:text-cyan-400" />
               </a>
             </div>
