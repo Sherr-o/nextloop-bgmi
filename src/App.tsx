@@ -54,7 +54,7 @@ export default function App() {
 
             <div className="flex items-center gap-4">
               <a
-                href="https://discord.gg/uCsXwWhXWz"
+                href="https://discord.gg/skvip"
                 target="_blank"
                 rel="noreferrer"
                 className="hidden sm:block bg-linear-to-r from-neon-blue to-neon-purple px-6 py-2 rounded-full font-semibold text-white hover:scale-105 transition-transform shadow-[0_0_20px_rgba(0,240,255,0.3)]"
@@ -88,7 +88,7 @@ export default function App() {
               <a href="#purchase" onClick={() => setIsMenuOpen(false)} className="text-gray-300">Purchase</a>
               <a href="#support" onClick={() => setIsMenuOpen(false)} className="text-gray-300">Support</a>
               <a
-                href="https://discord.gg/uCsXwWhXWz"
+                href="https://discord.gg/skvip"
                 target="_blank"
                 rel="noreferrer"
                 className="bg-linear-to-r from-neon-blue to-neon-purple px-6 py-3 rounded-full font-bold text-white"
@@ -130,7 +130,7 @@ export default function App() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <a
-                  href="https://discord.gg/uCsXwWhXWz"
+                  href="https://discord.gg/skvip"
                   target="_blank"
                   rel="noreferrer"
                   className="bg-linear-to-r from-neon-blue to-neon-purple px-8 py-4 rounded-full font-bold text-lg flex items-center gap-2 hover:scale-105 transition-transform shadow-[0_0_30px_rgba(0,240,255,0.4)]"
@@ -441,7 +441,7 @@ export default function App() {
                 ))}
               </ul>
               <a
-                href="https://discord.gg/uCsXwWhXWz"
+                href="https://discord.gg/skvip"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full py-4 rounded-xl border border-cyan-500/50 hover:bg-cyan-500/10 transition font-bold block text-center"
@@ -477,7 +477,7 @@ export default function App() {
                 ))}
               </ul>
               <a
-                href="https://discord.gg/uCsXwWhXWz"
+                href="https://discord.gg/skvip"
                 target="_blank"
                 rel="noreferrer"
                 className="w-full bg-linear-to-r from-neon-blue to-neon-purple py-4 rounded-xl font-bold block text-center shadow-[0_0_20px_rgba(0,240,255,0.3)]"
@@ -513,7 +513,7 @@ export default function App() {
               Get instant support, tutorials, announcements, and connect with 10,000+ fellow gamers in our community
             </p>
             <a
-              href="https://discord.gg/uCsXwWhXWz"
+              href="https://discord.gg/skvip"
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-3 bg-[#5865F2] hover:bg-[#4752C4] px-10 py-4 rounded-full font-bold text-lg transition transform hover:scale-105 shadow-xl"
@@ -553,7 +553,7 @@ export default function App() {
               © 2026 Nextloop. All rights reserved. Not affiliated with KRAFTON or BGMI.
             </div>
             <div className="flex gap-4">
-              <a href="https://discord.gg/uCsXwWhXWz" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-cyan-500/20 flex items-center justify-center transition group">
+              <a href="https://discord.gg/skvip" target="_blank" rel="noreferrer" className="w-10 h-10 rounded-full bg-gray-800 hover:bg-cyan-500/20 flex items-center justify-center transition group">
                 <MessageSquare className="w-5 h-5 text-gray-400 group-hover:text-cyan-400" />
               </a>
             </div>
