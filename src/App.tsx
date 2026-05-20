@@ -244,7 +244,7 @@ export default function App() {
                 </div>
                 <h3 className="font-orbitron text-3xl md:text-4xl font-bold mb-2 text-white">BGMI Optimized APK</h3>
                 <p className="text-gray-300 text-lg mb-2">Custom modified APK engineered for maximum stability and performance on Emulators.</p>
-                <div className="text-sm font-medium text-purple-400 mb-6">Version 4.3 • Requires Emulator Bypass</div>
+                <div className="text-sm font-medium text-purple-400 mb-6">Version 4.4 • Requires Emulator Bypass</div>
               </div>
 
               <div className="w-full md:w-auto flex-shrink-0 z-10">
